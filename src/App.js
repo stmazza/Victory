@@ -56,6 +56,7 @@ function App() {
             />
             <VictoryAxis
               dependentAxis
+              style={{tickLabels: {fontSize: 8}}}              
             />
           <VictoryStack
             colorScale={["tomato", "orange", "gold"]}>
